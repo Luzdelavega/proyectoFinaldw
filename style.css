@@ -1,7 +1,14 @@
-html {
+tml {
     box-sizing: border-box;
     font-size: 62.5%; /* 1REM = 10px */
   }
+  .hero {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 25rem;
+}
   *,
   *:before,
   *:after {
@@ -526,4 +533,5 @@ html {
     width: 40rem;
     object-fit: cover;
   }
+  
   
